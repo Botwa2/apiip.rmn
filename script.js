@@ -87,7 +87,7 @@ if (contactForm) {
 
         const formData = new FormData(this);
         const name = formData.get('apiip.rmn');
-        const email = formData.get('email');
+        const email = formData.get('afifurr244@gmail.com');
         const subject = formData.get('subject');
         const message = formData.get('message');
 
@@ -210,4 +210,5 @@ scrollToTopBtn.addEventListener('click', () => {
         behavior: 'smooth'
     });
 });
+
 
